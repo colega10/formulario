@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <title>Formulario web basico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: white;">Formulario web</h1>
+    <hr>
+    <form action="#" class="fondo">
+        <fieldset>
+            <legend class="sub">Entradas de usuario</legend>
+            <div class="nombre">
+                <label for="usuario">Nombres:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="usuario">Apellido Paterno:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="usuario">Apellido Materno:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="email">Direccion email:</label>
+                <input id="email" type="text" name="email">
+            </div><br>
+            <div class="seleccion">
+                <label for="especialidad">Especialidad:</label>
+                <select name="especialidad">
+                    <option value="CONTA">Contabilidad</option>
+                    <option value="CONS">Construccion</option>
+                    <option value="ELEC">Electronica</option>
+                    <option value="LOGI">Logistica</option>
+                    <option value="ALIM">Prodduccion industrial de alimentos</option>
+                    <option value="PROG">Programacion</option>
+                    <option value="" selected="selected">Selecciona tu especialidad...</option>
+                </select>
+            </div><br>
+            <div class="seleccion">
+                <label for="semestre">Semestre:</label>
+                <select name="semestre">
+                    <option value="1">Primer semestre</option>
+                    <option value="3">Tercer semestre</option>
+                    <option value="5">Quinto semestre</option>
+                    <option value="" selected="selected">Selecciona tu semestre...</option>
+                </select>
+            </div><br>
+            <div class="caja">Sexo: <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+            <div class="caja">Extra escolar a elegir: <br>
+                <input type="checkbox" id="futbol" name="extra escolar" value="futbol">
+                <label for="futbol">Futbol</label><br>
+                <input type="checkbox" id="basquetball" name="extra escolar" value="basquetball">
+                <label for="basquetball">Basquetball</label><br>
+                <input type="checkbox" id="volleyball" name="extra escolar" value="volleyball">
+                <label for="volleyball">Volleyball</label><br>
+                <input type="checkbox" id="banda de guerra" name="extra escolar" value="banda de guerra">
+                <label for="banda de guerra">Banda de Guerra</label><br>
+                <input type="checkbox" id="Dibujo" name="extra escolar" value="Dibujo"> <label for="Dibujo">Dibujo</label><br>
+                <input type="checkbox" id="manualidades" name="extra escolar" value="manualidades"><label for="manualidades">Manualidades</label><br>
+                <input type="checkbox" id="proteccion civil" name="extra escolar" value="proteccion civil"><label for="proteccion civil">Proteccion Civil</label><br>
+                <input type="checkbox" id="artes escenicas" name="extra escolar" value="artes escenicas"><label for="artes escenicas">Artes escenicas</label><br>
+                <input type="checkbox" id="canto" name="extra escolar" value="canto"><label for="canto">Canto</label><br>
+            </div><br>
+            <div class="terminos">
+                <input type="radio" id="terminos y condiciones" name="condiciones" value="terminos y condiciones">
+                <label for="terminos y condiciones">Estoy de acuerdo con <a href="#"> Terminos y condiciones </a></label>
+            </div><br> 
+                <div class="envio"><br>
+                <input class="buttoms" type="submit" name="submit" value="Enviar informacion">
+                <input class="buttoms" type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
+        </fieldset>
+    </form>
+</body>
+</html>
